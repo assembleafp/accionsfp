@@ -101,7 +101,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Muro de la vergüenza',
             items: [
               {
                 label: 'Tutorial',
