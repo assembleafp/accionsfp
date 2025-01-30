@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkacciones_politicas=self.webpackChunkacciones_politicas||[]).push([[8462],{3735:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/acciones-politicas/eu/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
