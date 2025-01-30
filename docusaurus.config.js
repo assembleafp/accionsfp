@@ -44,10 +44,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/yaknostoyok/acciones-politicas/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -55,10 +54,9 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/yaknostoyok/acciones-politicas/tree/main',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -77,10 +75,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Acciones políticas',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Yak logo',
+          src: 'img/yak-logo.png',
         },
         items: [
           {
@@ -104,43 +102,34 @@ const config = {
             title: 'Muro de la vergüenza',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Contempla el muro',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Bienvenida',
+                to: '/blog/blog-bienvenida',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: '¿Cómo colaborar?',
+                to: '/blog/como-colaborar',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Otros',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Repositorio original',
+                href: 'https://github.com/yaknostoyok/acciones-politicas/tree/main',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Autoría',
+                href: 'https://yaknostoyok.github.io/acciones-politicas/blog/authors/yaknostoyok',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Acciones políticas, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

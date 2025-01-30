@@ -1,0 +1,34 @@
+---
+slug: como-colaborar
+title: Cómo colaborar
+authors: [yaknostoyok]
+tags: [importante]
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+Esta página se publica a partir de un [repositorio de Github](https://github.com/yaknostoyok/acciones-politicas/tree/main).
+
+{/* truncate */}
+
+:::tip
+
+Necesitas un nivel base de informática para poder colaborar
+
+:::
+
+<Highlight color="#25c2a0">Recuerda</Highlight> esta página está pensada para ser una especie de hemeroteca, <Highlight color="#1877F2">no un espacio de juicio</Highlight>.
+Evita las opiniones personales y cita tan solo fuentes ciertas, demostrables y confiables. 
+¿Quieres empezar?
+
+<button onClick={() => alert('[Link al repositorio](https://github.com/yaknostoyok/acciones-politicas/tree/main)')}>¡Anímate!</button>

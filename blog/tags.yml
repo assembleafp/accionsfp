@@ -17,3 +17,16 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+bienvenida:
+  label: Bienvenida
+  permalink: /bienvenida
+  description: Etiqueta para el mensaje de bienvenida
+
+importante:
+  label: Importante
+  permalink: /importante
+  description: Etiqueta para mensajes importantes
+
+
+
