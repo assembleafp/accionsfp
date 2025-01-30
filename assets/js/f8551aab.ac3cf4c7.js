@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkacciones_politicas=self.webpackChunkacciones_politicas||[]).push([[2224],{4575:(e,c,s)=>{s.r(c),s.d(c,{default:()=>n});s(6540);var a=s(1410),i=s(4848);function n(){return(0,i.jsxs)(a.A,{children:[(0,i.jsx)("h1",{children:"My React page"}),(0,i.jsx)("p",{children:"This is a React page"})]})}}}]);

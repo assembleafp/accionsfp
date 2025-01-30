@@ -1,2 +1,0 @@
-# acciones-politicas
-descripción temp
