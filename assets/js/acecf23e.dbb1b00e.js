@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkacciones_politicas=self.webpackChunkacciones_politicas||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/accionsfp/blog","blogTitle":"Blog","authorsListPath":"/accionsfp/blog/authors"}')}}]);

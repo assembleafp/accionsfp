@@ -1,61 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Acciones políticas Blog</title>
-        <link>https://yaknostoyok.github.io/acciones-politicas/blog</link>
-        <description>Acciones políticas Blog</description>
-        <lastBuildDate>Fri, 31 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <title>Assemblea FP Blog</title>
+        <link>https://assembleafp.github.io/accionsfp/blog</link>
+        <description>Assemblea FP Blog</description>
+        <lastBuildDate>Fri, 21 Mar 2025 21:18:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>es</language>
+        <language>ca</language>
         <item>
-            <title><![CDATA[Cómo colaborar]]></title>
-            <link>https://yaknostoyok.github.io/acciones-politicas/blog/como-colaborar</link>
-            <guid>https://yaknostoyok.github.io/acciones-politicas/blog/como-colaborar</guid>
-            <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Esta página se publica a partir de un repositorio de Github.]]></description>
-            <content:encoded><![CDATA[<p>Esta página se publica a partir de un <a href="https://github.com/yaknostoyok/acciones-politicas/tree/main" target="_blank" rel="noopener noreferrer">repositorio de Github</a>.</p>
-<!-- -->
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Necesitas un nivel base de informática para poder colaborar</p></div></div>
-<p><span style="background-color:#25c2a0;border-radius:2px;color:#fff;padding:0.2rem">Recuerda</span> esta página está pensada para ser una especie de hemeroteca, <span style="background-color:#1877F2;border-radius:2px;color:#fff;padding:0.2rem">no un espacio de juicio</span>.
-Evita las opiniones personales y cita tan solo fuentes ciertas, demostrables y confiables.
-¿Quieres empezar?</p>
-<button>¡Anímate!</button>]]></content:encoded>
-            <category>Importante</category>
-        </item>
-        <item>
-            <title><![CDATA[Mensaje de bienvenida]]></title>
-            <link>https://yaknostoyok.github.io/acciones-politicas/blog/blog-bienvenida</link>
-            <guid>https://yaknostoyok.github.io/acciones-politicas/blog/blog-bienvenida</guid>
-            <pubDate>Thu, 30 Jan 2025 21:20:29 GMT</pubDate>
-            <description><![CDATA[Este es el post de bienvenida.]]></description>
-            <content:encoded><![CDATA[<p>Este es el post de bienvenida.</p>
-<p>Pendiente de escribir.</p>]]></content:encoded>
-            <category>Bienvenida</category>
-            <category>Importante</category>
-        </item>
-        <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://yaknostoyok.github.io/acciones-politicas/blog/welcome</link>
-            <guid>https://yaknostoyok.github.io/acciones-politicas/blog/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+            <title><![CDATA[Missatge de benvinguda]]></title>
+            <link>https://assembleafp.github.io/accionsfp/blog/missatge-benvinguda</link>
+            <guid>https://assembleafp.github.io/accionsfp/blog/missatge-benvinguda</guid>
+            <pubDate>Fri, 21 Mar 2025 21:18:39 GMT</pubDate>
+            <description><![CDATA[Benvinguts a l'Assemblea FP, un espai col·lectiu i obert creat per un membre de la comunitat educativa, que busca reunir-nos com a col·lectiu per abordar els reptes i problemes que afecten l'educació i la formació professional.]]></description>
+            <content:encoded><![CDATA[<p>Benvinguts a <strong>l'Assemblea FP</strong>, un espai col·lectiu i obert creat per un membre de la comunitat educativa, que busca reunir-nos com a col·lectiu per abordar els reptes i problemes que afecten l'educació i la formació professional.</p>
+<p>Som una iniciativa <strong>independent</strong>, <strong>no vinculada a cap associació ni sindicat</strong>, des d'on arranquem i mobilitzem accions reivindicatives i informatives de l'estat de l'educació a FP.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quin-és-el-nostre-objectiu">Quin és el nostre objectiu?<a href="https://assembleafp.github.io/accionsfp/blog/missatge-benvinguda#quin-%C3%A9s-el-nostre-objectiu" class="hash-link" aria-label="Direct link to Quin és el nostre objectiu?" title="Direct link to Quin és el nostre objectiu?">​</a></h2>
+<p>A través d'aquesta assemblea, busquem crear un espai per:</p>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li><strong>Debatre i analitzar</strong> les problemàtiques que ens afecten com a comunitat educativa.</li>
+<li><strong>Organitzar accions col·lectives</strong> que permetin abordar aquestes problemàtiques de manera efectiva.</li>
+<li><strong>Fer sentir la nostra veu</strong>, especialment en temes que no són tractats de manera adequada per altres mecanismes o organismes.</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://yaknostoyok.github.io/acciones-politicas/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>Facebook</category>
-            <category>Hello</category>
-            <category>Docusaurus</category>
+<p>Ens unim per ser una <strong>plataforma de reivindicació</strong>, on la nostra prioritat és defensar els drets i interessos de les persones que formem part de les diferents comunitats educatives.</p>
+<p>Assemblea FP tracta de centrar-se en un únic problema i intentar prendre mesures i accions enfocades tan sols en aquest fins que aconseguim algun canvi o millora que considerem suficient.</p>
+<p>Ara mateix l'objectiu d'Assemblea FP és:</p>
+<code> Lluitar contra la situació precària de la FCT a FP, PFI i SOC, que no garanteix la possibilitat de graduar a l'alumnat ni el desenvolupament d'unes pràctiques de qualitat. </code>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="com-pots-contribuir">Com pots contribuir?<a href="https://assembleafp.github.io/accionsfp/blog/missatge-benvinguda#com-pots-contribuir" class="hash-link" aria-label="Direct link to Com pots contribuir?" title="Direct link to Com pots contribuir?">​</a></h2>
+<p>Aquesta pàgina és un repositori públic, obert i transparent. El farem servir per comunicar les diferents mesures, accions i events que anem organitzant.</p>
+<p>Ara mateix tenim diferents accions en marxa amb les que pots contribuir:</p>
+<ul>
+<li><strong>Organitzar assemblees a centres educatius:</strong> una de les millors accions reivindicatives és educar a les comunitats educatives en la situació precària que vivim i perquè cal lluitar.</li>
+<li><strong>Participació en la pròxima Assemblea FP:</strong> pròximament durem a terme una segona Assemblea FP amb l'objectiu d'escollir uns manifests.</li>
+<li><strong>Testimonis FCT:</strong>  estem recollint testimonis de diferents membres de la comunitat educativa (sobre tot alumnat, professorat i coordinador/es FCT) que han patit degut a la precària situació de la FCT a FP.</li>
+</ul>
+<p>Si t'interesa col·laborar en alguna d'aquestes accions, pots enviar un correu a <a href="mailto:assembleafp@gmail.com" target="_blank" rel="noopener noreferrer">assembleafp@gmail.com</a></p>
+<p>Tothom qui vulgui participar, aportar idees i ajudar a organitzar accions és benvingut. No necessites cap afiliació prèvia ni vincle amb cap altra organització; només cal que tinguis ganes de fer-hi aportacions i treballar en conjunt.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="els-teus-drets-la-teva-veu">Els teus drets, la teva veu!<a href="https://assembleafp.github.io/accionsfp/blog/missatge-benvinguda#els-teus-drets-la-teva-veu" class="hash-link" aria-label="Direct link to Els teus drets, la teva veu!" title="Direct link to Els teus drets, la teva veu!">​</a></h3>
+<p>Junts, podem aconseguir un sistema educatiu més just, inclusiu i adequat per a tothom. Aquesta assemblea és un punt de trobada on <strong>les idees es transformen en accions</strong>.</p>
+<p><strong>Participa i sigues part d'aquest canvi.</strong></p>
+<hr>]]></content:encoded>
+            <category>Benvinguda</category>
+        </item>
+        <item>
+            <title><![CDATA[Resum i conclusions de la primera Assemblea FP 18/03/2025]]></title>
+            <link>https://assembleafp.github.io/accionsfp/blog/primera-assemblea</link>
+            <guid>https://assembleafp.github.io/accionsfp/blog/primera-assemblea</guid>
+            <pubDate>Fri, 21 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[El passat 18 de març, vam celebrar la primera Assemblea FP. Aquest espai col·lectiu busca abordar les problemàtiques que afecten l'FP i les seves pràctiques, amb l'objectiu de generar accions reivindicatives i organitzar-nos com a comunitat educativa. A continuació, compartim els punts més destacats d'aquesta primera trobada i les accions que vam acordar.]]></description>
+            <content:encoded><![CDATA[<p>El passat <strong>18 de març</strong>, vam celebrar la <strong>primera Assemblea FP</strong>. Aquest espai col·lectiu busca abordar les problemàtiques que afecten l'FP i les seves pràctiques, amb l'objectiu de generar accions reivindicatives i organitzar-nos com a comunitat educativa. A continuació, compartim els punts més destacats d'aquesta primera trobada i les accions que vam acordar.</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-presentació-de-lassemblea">📑 Presentació de l'Assemblea<a href="https://assembleafp.github.io/accionsfp/blog/primera-assemblea#-presentaci%C3%B3-de-lassemblea" class="hash-link" aria-label="Direct link to 📑 Presentació de l'Assemblea" title="Direct link to 📑 Presentació de l'Assemblea">​</a></h2>
+<p>Durant l'assemblea es va compartir una presentació que abordava diversos temes crítics:</p>
+<ul>
+<li><strong>Anàlisi de la FCT</strong>: Es va fer un resum comparatiu del pla antic i del nou pla de la FCT (Formació en Centres de Treball), amb un enllaç a la nova normativa.</li>
+<li><strong>Problemes identificats</strong>: Vam exposar els principals reptes a què ens enfrontem i que volem tractar des de l'assemblea.</li>
+<li><strong>Propostes d'accions reivindicatives</strong>: Es van presentar diverses accions que podrien ser implementades, així com la seva viabilitat.</li>
+<li><strong>Participació</strong>: Es va fer un resum de la participació en aquesta primera assemblea, amb una bona representació de diferents sectors.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-conclusions-clau-de-lassemblea">💬 Conclusions Clau de l'Assemblea<a href="https://assembleafp.github.io/accionsfp/blog/primera-assemblea#-conclusions-clau-de-lassemblea" class="hash-link" aria-label="Direct link to 💬 Conclusions Clau de l'Assemblea" title="Direct link to 💬 Conclusions Clau de l'Assemblea">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-sobre-la-vaga">1. Sobre la vaga<a href="https://assembleafp.github.io/accionsfp/blog/primera-assemblea#1-sobre-la-vaga" class="hash-link" aria-label="Direct link to 1. Sobre la vaga" title="Direct link to 1. Sobre la vaga">​</a></h3>
+<p>Vam parlar sobre la possibilitat de convocar una vaga com a forma d’acció. Diversos sindicats (d’alumnat i professorat) han mostrat el seu suport a aquesta idea, però creuen que seria millor esperar a generar més impacte i mobilització prèvia per assegurar-ne l'èxit.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-realització-dassemblees-locals">2. Realització d'assemblees locals<a href="https://assembleafp.github.io/accionsfp/blog/primera-assemblea#2-realitzaci%C3%B3-dassemblees-locals" class="hash-link" aria-label="Direct link to 2. Realització d'assemblees locals" title="Direct link to 2. Realització d'assemblees locals">​</a></h3>
+<p>Una de les idees més destacades va ser organitzar més assemblees a nivell local per educar a les comunitats educatives sobre la problemàtica i la necessitat d’actuar. Es va proposar que les comunitats interessades en organitzar assemblees locals ens enviessin una sol·licitud per correu electrònic. Si disposen d'un espai, l’assemblea es faria presencial; si no, es veuria la possibilitat de realitzar-les de manera telemàtica.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Les assemblees locals són clau per a crear una consciència comuna i per organitzar-nos millor.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-recollida-de-testimonis">3. Recollida de testimonis<a href="https://assembleafp.github.io/accionsfp/blog/primera-assemblea#3-recollida-de-testimonis" class="hash-link" aria-label="Direct link to 3. Recollida de testimonis" title="Direct link to 3. Recollida de testimonis">​</a></h3>
+<p>Es va proposar recollir testimonis d’alumnes i coordinadors de FCT per difondre la problemàtica i crear bases sòlides per a futures reclamacions. A més, es va fer un enllaç amb un moviment creat per estudiants d’Olot, anomenat <strong>"Salvem la FP"</strong>, que recull testimonis d’estudiants afectats per la situació de la FCT. Els testimonis poden ser enviats també a <strong><a href="mailto:assembleafp@gmail.com" target="_blank" rel="noopener noreferrer">assembleafp@gmail.com</a></strong>.</p>
+<blockquote>
+<p>🎤 <strong>Si tens un testimoni sobre la teva experiència amb la FCT, no dubtis a compartir-lo amb nosaltres!</strong></p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-preparació-dun-manifest">4. Preparació d’un manifest<a href="https://assembleafp.github.io/accionsfp/blog/primera-assemblea#4-preparaci%C3%B3-dun-manifest" class="hash-link" aria-label="Direct link to 4. Preparació d’un manifest" title="Direct link to 4. Preparació d’un manifest">​</a></h3>
+<p>Es va acordar redactar un manifest que expressi de manera clara les nostres reivindicacions, així com un document més detallat per explicar la situació en profunditat i cercar adhesions de famílies, alumnat, professorat, sindicats i associacions.</p>
+<blockquote>
+<p>📝 <strong>Un manifest clar i ben redactat ens ajudarà a sumar més suports i fer sentir la nostra veu més forta.</strong></p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-continuïtat-de-lassemblea">5. Continuïtat de l'assemblea<a href="https://assembleafp.github.io/accionsfp/blog/primera-assemblea#5-continu%C3%AFtat-de-lassemblea" class="hash-link" aria-label="Direct link to 5. Continuïtat de l'assemblea" title="Direct link to 5. Continuïtat de l'assemblea">​</a></h3>
+<p>Es va concloure que la feina de l'assemblea ha de continuar amb més accions i més espais de participació per garantir que la nostra veu sigui escoltada.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-altres-accions-i-suports">📣 Altres Accions i Suports<a href="https://assembleafp.github.io/accionsfp/blog/primera-assemblea#-altres-accions-i-suports" class="hash-link" aria-label="Direct link to 📣 Altres Accions i Suports" title="Direct link to 📣 Altres Accions i Suports">​</a></h2>
+<p>Diversos sindicats i organitzacions han mostrat el seu suport a la causa:</p>
+<ul>
+<li><strong>UGT</strong> s'ha compromès a difondre la problemàtica a la seva web i xarxes socials i traslladarà la qüestió a la Mesa Sectorial.</li>
+<li><strong>CGT</strong> ha anunciat un moviment per la derogació de la nova llei de FP Dual i ofereix suport per contactar amb grups parlamentaris.</li>
+<li><strong>ASPEPC·SPS</strong> ha informat d’un proper webinar sobre les pràctiques d'FP des del punt de vista dels empresaris.</li>
+</ul>
+<blockquote>
+<p>🤝 <strong>L’important és que tots els actors involucrats treballin junts per fer canvis reals al sistema.</strong></p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-què-fer-a-continuació">🔗 Què fer a continuació?<a href="https://assembleafp.github.io/accionsfp/blog/primera-assemblea#-qu%C3%A8-fer-a-continuaci%C3%B3" class="hash-link" aria-label="Direct link to 🔗 Què fer a continuació?" title="Direct link to 🔗 Què fer a continuació?">​</a></h2>
+<p>Si ets part d’una comunitat educativa i vols participar activament en les pròximes accions o assemblees, envia'ns un correu a <strong><a href="mailto:assembleafp@gmail.com" target="_blank" rel="noopener noreferrer">assembleafp@gmail.com</a></strong> amb l'assumpte adequat (per exemple, [AssembleaFP] per organitzar una assemblea local o [Testimoni] per compartir el teu testimoni).</p>
+<blockquote>
+<p>🚀 <strong>Recorda que, amb la teva ajuda, podem crear un moviment més fort i més unit per resoldre els problemes de la FCT a FP.</strong></p>
+</blockquote>
+<hr>
+<p><strong>Moltes gràcies a tots els assistents per la seva participació i interès en aquesta causa.</strong> Recordem que aquest espai no està vinculat a cap institució ni organisme, i el nostre objectiu és actuar com a <strong>node de connexió per organitzar accions col·lectives</strong>.</p>
+<p><strong>Ens veiem en la propera assemblea!</strong></p>]]></content:encoded>
+            <category>Resum d'assemblea</category>
+            <category>Important</category>
         </item>
     </channel>
 </rss>

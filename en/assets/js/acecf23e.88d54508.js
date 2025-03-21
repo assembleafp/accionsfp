@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkacciones_politicas=self.webpackChunkacciones_politicas||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/acciones-politicas/en/blog","blogTitle":"Blog","authorsListPath":"/acciones-politicas/en/blog/authors"}')}}]);
