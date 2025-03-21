@@ -90,7 +90,7 @@ const config = {
           {to: '/docs/intro', label: 'Manifest', position: 'left'},
           {to: '/testimonis-page', label: 'Testimonis FCT', position: 'left'},
           {
-            href: 'https://github.com/yaknostoyok/acciones-politicas',
+            href: 'https://github.com/assembleafp/accionsfp',
             label: 'Repositori de Github',
             position: 'right',
           },
