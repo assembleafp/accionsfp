@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-# MURO DE LA VERGÜENZA
+# MANIFEST FCT
 
-Esta documentación está dedicad a recopilar los casos de corrupción y escándalos de políticos y personalidades de poder en España.
-
-Para educar, recordar y seguir luchando. 
+Aquesta documentació queda pendent de redacció a la pròxima Assemblea FP. Per a més informació, visiteu el blog [blog d'entrades sobre l'assemblea](../blog).

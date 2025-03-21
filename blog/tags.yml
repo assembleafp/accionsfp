@@ -1,32 +1,17 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+resum-assemblea:
+  label: Resum d'assemblea
+  permalink: /resum-assemblea
+  description: Etiqueta per als missatges que resumeixen les assemblees
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+benvinguda:
+  label: Benvinguda
+  permalink: /benvinguda
+  description: Etiqueta per al missatge de benvinguda
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
-
-bienvenida:
-  label: Bienvenida
-  permalink: /bienvenida
-  description: Etiqueta para el mensaje de bienvenida
-
-importante:
-  label: Importante
-  permalink: /importante
-  description: Etiqueta para mensajes importantes
+important:
+  label: Important
+  permalink: /important
+  description: Etiqueta per als missatges importants
 
 
 

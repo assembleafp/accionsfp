@@ -10,20 +10,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Acciones políticas',
-  tagline: 'Página para educar, recordar y luchar por un futuro mejor',
+  title: 'Assemblea FP',
+  tagline: 'Accions ara, després és tard',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://yaknostoyok.github.io',
+  url: 'https://assembleafp.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/acciones-politicas/',
+  baseUrl: '/accionsfp/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'yaknostoyok', // Usually your GitHub org/user name.
-  projectName: 'acciones-politicas', // Usually your repo name.
+  organizationName: 'Assemblea FP', // Usually your GitHub org/user name.
+  projectName: 'accionsfp', // Usually your repo name.
   deploymentBranch: 'deployment',
 
   onBrokenLinks: 'throw',
@@ -33,8 +33,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'es',
-    locales: ['es','ca','eu','gl','en'],
+    defaultLocale: 'ca',
+    locales: ['ca'],
   },
 
   presets: [
@@ -46,7 +46,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/yaknostoyok/acciones-politicas/tree/main',
+            'https://github.com/assembleafp/accionsfp/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config = {
           },
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/yaknostoyok/acciones-politicas/tree/main',
+            'https://github.com/assembleafp/accionsfp/tree/main',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -75,23 +75,23 @@ const config = {
       // Replace with your project's social card
       image: 'img/yak-social-card.jpg',
       navbar: {
-        title: 'Acciones políticas',
+        title: 'Assemblea FP',
         logo: {
-          alt: 'Yak logo',
-          src: 'img/yak-logo.png',
+          alt: 'AFP logo',
+          src: 'img/afp.svg',
         },
         items: [
           {
             type: 'localeDropdown',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Idiomas',
           },
-          {to: '/docs/intro', label: 'Muro', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Assemblees', position: 'left'},
+          {to: '/docs/intro', label: 'Manifest', position: 'left'},
+          {to: '/testimonis-page', label: 'Testimonis FCT', position: 'left'},
           {
             href: 'https://github.com/yaknostoyok/acciones-politicas',
-            label: 'Repositorio de Github',
+            label: 'Repositori de Github',
             position: 'right',
           },
         ],
@@ -100,37 +100,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Muro de la vergüenza',
+            title: 'Accions per la FCT',
             items: [
               {
-                label: 'Contempla el muro',
-                to: '/docs/intro',
+                label: 'Testimonis FCT',
+                to: '/testimonis-page',
               },
               {
-                label: 'Bienvenida',
-                to: '/blog/blog-bienvenida',
-              },
-              {
-                label: '¿Cómo colaborar?',
-                to: '/blog/como-colaborar',
+                label: 'Publicacions Assemblea FP',
+                to: '/blog',
               },
             ],
           },
           {
-            title: 'Otros',
+            title: 'Altres',
             items: [
               {
-                label: 'Repositorio original',
-                href: 'https://github.com/yaknostoyok/acciones-politicas/tree/main',
+                label: 'Repositori original',
+                href: 'https://github.com/assembleafp/accionsfp',
               },
               {
-                label: 'Autoría',
-                href: 'https://yaknostoyok.github.io/acciones-politicas/blog/authors/yaknostoyok',
+                label: 'Autoria',
+                href: 'https://assembleafp.github.io/accionsfp/blog/authors/yaknostoyok',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Acciones políticas, Inc. Built with Docusaurus.`,
+        copyright: `Pàgina desenvolupada amb Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

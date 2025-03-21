@@ -1,0 +1,142 @@
+/* testimonis.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px; /* Afegit més espai superior i inferior */
+  background-color: var(--background-color); /* Utilitza la variable per al mode fosc o clar */
+  border-radius: 8px; /* Arrodonir les cantonades */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Afegir una mica d'ombra per destacar el contenidor */
+  transition: background-color 0.3s ease; /* Transició suau per al canvi de fons */
+}
+
+.filtres {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-family: 'Arial', sans-serif; /* Tipus de lletra per a més netedat */
+}
+
+.filtres select, .filtres input {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  transition: all 0.3s ease;
+  background-color: var(--select-background); /* Ajustar el fons per mode clar i fosc */
+  color: var(--select-color); /* Ajustar el color del text per mode clar i fosc */
+}
+
+.filtres select:focus, .filtres input:focus {
+  border-color: #FFD700; /* Daurat per a l'estat de focus */
+  outline: none;
+}
+
+.filtres label {
+  font-weight: bold;
+  color: var(--text-color); /* El text serà negre en mode clar i blanc en mode fosc */
+}
+
+.testimonis {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimoniCard {
+  border: 1px solid var(--gold-border); /* Daurat per a separar els testimonis */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--card-background); /* Utilitza la variable per al mode fosc o clar */
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.testimoniCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombra quan el ratolí passa per sobre */
+  transform: translateY(-5px); /* Lliure lleugerament cap amunt per afegir profunditat */
+}
+
+.testimoniHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: var(--text-color); /* Text de capçalera en negre o blanc */
+}
+
+.testimoniCard h3 {
+  margin-bottom: 10px;
+}
+
+.testimoniCard span {
+  font-size: 14px;
+  color: var(--text-color-muted); /* Color més clar per al perfil */
+}
+
+.testimoniCard p {
+  font-size: 14px;
+  color: var(--text-color); /* Text en negre o blanc segons el mode */
+  line-height: 1.6;
+}
+
+.testimoniCard p strong {
+  color: var(--text-color); /* El text dels camps forts serà negre o blanc */
+}
+
+/* Títol principal de la pàgina */
+h1 {
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 2px solid #cba135;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-color);
+  transition: all 0.3s ease; /* Transició per al canvi de mode */
+}
+
+/* Nota inferior */
+p.note {
+  font-size: 12px;
+  font-style: italic; /* Cursiva */
+  color: var(--text-color-muted);
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  background-color: var(--note-background); /* Fons subtil per a la nota */
+  border: 1px solid var(--note-border); /* Borde de la nota */
+  border-radius: 8px;
+  transition: all 0.3s ease; /* Transició per al canvi de mode */
+}
+
+.testimoniCard + .note {
+  margin-top: 40px; /* Separació més gran dels testimonis */
+}
+
+/* --- Variables per mode clar i fosc --- */
+:root {
+  --background-color: #fff; /* Blanc per al mode clar */
+  --card-background: #f9f9f9; /* Fons més suau per a les targetes en mode clar */
+  --text-color: #333; /* Negre per al text principal en mode clar */
+  --text-color-muted: #666; /* Color més clar per al text menys destacat en mode clar */
+  --select-background: #fff; /* Fons blanc per als select en mode clar */
+  --select-color: #333; /* Text negre per als select en mode clar */
+  --gold-border: #cba135; /* Daurat més fosc per a bordes en mode clar */
+  --note-background: #f9f9f9; /* Fons suau per a la nota en mode clar */
+  --note-border: #d3d3d3; /* Borde suau per a la nota en mode clar */
+}
+
+[data-theme="dark"] {
+  --background-color: #121212; /* Fons fosc per al mode dark */
+  --card-background: #1e1e1e; /* Fons més fosc per a les targetes en mode dark */
+  --text-color: #fff; /* Blanc per al text principal en mode fosc */
+  --text-color-muted: #ccc; /* Color més clar per al text menys destacat en mode fosc */
+  --select-background: #333; /* Fons fosc per als select en mode fosc */
+  --select-color: #fff; /* Text blanc per als select en mode fosc */
+  --gold-border: #b49d5d; /* Daurat més clar per a bordes en mode dark */
+  --note-background: #333; /* Fons fosc per a la nota en mode dark */
+  --note-border: #555; /* Borde més fosc per a la nota en mode dark */
+}

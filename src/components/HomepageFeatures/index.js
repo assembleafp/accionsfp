@@ -4,32 +4,38 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Sense pràctiques',
+    Svg: require('@site/static/img/void.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        L'alumnat i els docents d'FP busquen empreses per realitzar la FCT, però <b>no en troben a temps per a tot l'alumnat.</b>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Atorats pel sistema',
+    Svg: require('@site/static/img/stop.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        L'alumnat que no troba pràctiques a temps, <b>no pot graduar</b> i, per tant, <b>no pot continuar els seus estudis ni accedir al mercat laboral. </b>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Una nova FP, de menys qualitat',
+    Svg: require('@site/static/img/fail.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        La normativa augmenta les hores i la importància de la FCT, sense garantir ni l'accés ni la qualitat d'aquesta. 
+      </>
+    ),
+  },
+  {
+    title: 'Sense solucions',
+    Svg: require('@site/static/img/question.svg').default,
+    description: (
+      <>
+        <b>L'alumnat i els centres d'FP necessiten una solució a la precarietat de la FCT. </b>
       </>
     ),
   },
