@@ -1,14 +1,13 @@
 yaknostoyok:
   name: Yak Nostoyok
-  title: Persona random
-  url: https://github.com/yaknostoyok
+  title: Docent FP
+  url: https://www.youtube.com/@yaknostoyok
   image_url: https://github.com/yaknostoyok.png
   page: true
   socials:
     youtube: yaknostoyok
     mastodon: yaknostoyok
-    github: yaknostoyok
-    bluesky: yaknostoyok 
+    bluesky: yaknostoyok.bsky.social
     instagram: yaknostoyok
 
 

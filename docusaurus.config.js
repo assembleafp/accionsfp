@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Assemblea FP',
   tagline: 'Accions ara, després és tard',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/afp-favicon.svg',
 
   // Set the production url of your site here
   url: 'https://assembleafp.github.io',
@@ -73,7 +73,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/yak-social-card.jpg',
+      image: 'img/afp.svg',
       navbar: {
         title: 'Assemblea FP',
         logo: {
@@ -89,11 +89,6 @@ const config = {
           {to: '/blog', label: 'Assemblees', position: 'left'},
           {to: '/docs/intro', label: 'Manifest', position: 'left'},
           {to: '/testimonis-page', label: 'Testimonis FCT', position: 'left'},
-          {
-            href: 'https://github.com/assembleafp/accionsfp',
-            label: 'Repositori de Github',
-            position: 'right',
-          },
         ],
       },
       footer: {

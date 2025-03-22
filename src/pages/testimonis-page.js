@@ -130,12 +130,9 @@ export default function TestimonisPage() {
         </div>
 
         {/* Nota a la part inferior */}
-        <div className={styles.notaPeu}>
-          <p>
-            Aquests testimonis es recullen des del formulari: XXXXX<br />
-            El formulari requereix identificar-se amb informació concreta: nom, cognom, correu electrònic i centre educatiu. No obstant, també permet a les persones que envien testimonis, mantenir-se anònimes al publicar-los en aquesta pàgina.<br />
-            La veracitat d'aquests testimonis no pot ser comprovada per Assemblea FP. L'objectiu és senzillament actuar com un repositori obert de testimonis que puguin fer-se servir per educar, informar i compartir aquesta problemàtica.
-          </p>
+        <div className={styles.note}>
+            Aquests testimonis es recullen en un <a href="https://docs.google.com/forms/d/e/1FAIpQLScn4kW-RVy85yBHGZVHuyICFc57QzC78qAUInfoGn6smhl8uw/viewform">formulari</a><br />
+            Pròximament actualitzarem la pàgina amb la primera tanda de testimonis. La veracitat d'aquests no pot ser comprovada per Assemblea FP. L'objectiu és senzillament actuar com un repositori obert.
         </div>
       </div>
     </Layout>
