@@ -131,7 +131,7 @@ export default function TestimonisPage() {
 
         {/* Nota a la part inferior */}
         <div className={styles.note}>
-            Aquests testimonis es recullen en un <a href="https://docs.google.com/forms/d/e/1FAIpQLScn4kW-RVy85yBHGZVHuyICFc57QzC78qAUInfoGn6smhl8uw/viewform">formulari</a><br />
+            Aquests testimonis es recullen en un <a href="https://docs.google.com/forms/d/e/1FAIpQLSfth6dsECoYlzH59oOeWnGdkjAr3zx9XVKwHx-yhNZ7Tkovmg/viewform">formulari</a><br />
             Pròximament actualitzarem la pàgina amb la primera tanda de testimonis. La veracitat d'aquests no pot ser comprovada per Assemblea FP. L'objectiu és senzillament actuar com un repositori obert.
         </div>
       </div>
