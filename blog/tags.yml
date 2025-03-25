@@ -13,5 +13,10 @@ important:
   permalink: /important
   description: Etiqueta per als missatges importants
 
+convocatories:
+  label: Convocatòries
+  permalink: /convocatories
+  description: Etiqueta per a les convocatòries d'assemblees
+
 
 
